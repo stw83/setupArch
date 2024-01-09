@@ -16,3 +16,6 @@ yay -S make pkgconf
 
 # open browser to download tws
 chromium https://www.interactivebrokers.com/en/trading/tws-updateable-latest.php
+
+# fingerprint sensor according to https://wiki.archlinux.org/title/Lenovo_ThinkPad_T470
+yay -Syu python-validity fprintd-clients open-fprintd
