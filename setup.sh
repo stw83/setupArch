@@ -19,4 +19,10 @@ sudo pacman -Syyu
 
 ./snapper.sh
 
+./nativefier.sh
+
 ./setupOnedrive.sh
+
+./git-checkout.sh
+
+./config.sh
