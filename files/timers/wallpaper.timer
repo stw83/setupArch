@@ -1,0 +1,10 @@
+[Unit]
+Description=wallpaper
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+  

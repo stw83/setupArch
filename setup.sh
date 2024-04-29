@@ -26,3 +26,5 @@ sudo pacman -Syyu
 ./git-checkout.sh
 
 ./config.sh
+
+./timers.sh

@@ -1,0 +1,8 @@
+[Unit]
+Description=wallpaper
+
+[Service]
+Type=oneshot
+ExecStart=wallpaper.sh
+WorkingDirectory=/home/stefan/.bin
+  
