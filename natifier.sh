@@ -5,10 +5,20 @@
 sudo npm install -g nativefier
 
 # TO-DO
-nativefier 'https://to-do.live.com/tasks/today'
+nativefier  --name "To-Do" \
+    --icon "files/icons/ToDo.png" \
+    --disable-dev-tools \
+    --single-instance \
+    'https://to-do.live.com/tasks/today'
 
 # Excel
-nativefier 'https://www.microsoft365.com/launch/excel?auth=1'
+nativefier --name "Excel" \
+    --icon "files/icons/Excel.png" \
+    --disable-dev-tools \
+    'https://www.microsoft365.com/launch/excel?auth=1' 
 
 # Word
-nativefier 'https://www.microsoft365.com/launch/word?auth=1'
+nativefier --name "Word" \
+    --icon "files/icons/Word.png" \
+    --disable-dev-tools \
+    'https://www.microsoft365.com/launch/word?auth=1' 

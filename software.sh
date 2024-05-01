@@ -10,7 +10,7 @@ yay -S yakuake docker fish keepassxc visual-studio-code-bin nodejs npm flameshot
 
 # configure docker
 sudo systemctl enable docker
-sudo usermond -aG docker $"(whoami)"
+sudo usermod -aG docker "$(whoami)"
 
 yay -S make pkgconf
 

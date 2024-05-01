@@ -1,0 +1,9 @@
+[Unit]
+Description=Copy wallpaper of the day images
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+
+[Install]
+WantedBy=timers.target

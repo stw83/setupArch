@@ -46,3 +46,11 @@ CheckSpace
 #ParallelDownloads = 5
 
 ```
+
+## Setup network dns name resolution
+
+According to [Baeldung](https://www.baeldung.com/linux/resolve-conf-systemd-avahi#systemd-resolve) the systemd-resolved service needs to be enabled (this isn't currently done via script and needs to be executed manually):
+```
+sudo systemctl start systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+```
