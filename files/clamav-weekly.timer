@@ -1,0 +1,10 @@
+
+[Unit]
+Description=Run clamav scan weekly
+  
+[Timer]
+OnCalendar=Wed 12:00
+Persistent=true
+  
+[Install]
+WantedBy=timers.target

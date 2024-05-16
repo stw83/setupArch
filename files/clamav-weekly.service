@@ -1,0 +1,10 @@
+[Unit]
+Description='ClamAV Full System scan'
+After=clamav-daemon.service
+  
+[Service]
+Type=simple
+ExecStart=/usr/bin/clamdscan --fdpass /
+  
+[Install]
+WantedBy=multi-user.target
